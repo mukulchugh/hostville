@@ -7,6 +7,8 @@ export default function Home() {
         <title>HostVille - Housing for You!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <h1>Lets Build AirBnb</h1>
     </div>
   );
 }
