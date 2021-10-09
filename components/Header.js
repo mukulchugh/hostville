@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useState } from "react";
 import hvLogo from "../assets/logo/HostVille.svg";
 import {
   GlobeAltIcon,
@@ -8,6 +9,8 @@ import {
 } from "@heroicons/react/solid";
 
 function Header() {
+  const [searchInput, setSearchInput] = useState();
+
   return (
     <header className="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10">
       {/* left */}
